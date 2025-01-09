@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+.parent {
+  width: 900px;
+  height: 800px;
+  margin: 0 auto;
+  border: 5px solid tomato;
+}
+
+.one {
+  width: 100%;
+  height: 33.33%;
+  background-color: blue;
+  display: flex;
+}
+
+.one .one_child_one{
+    width: 25%;
+  height: 100%;
+  background-color: rgb(255, 0, 200);  
+}
+
+.one .one_child_two{
+  width: 25%; 
+height: 100%;
+background-color: rgb(255, 0, 0);  
+}
+.one .one_child_three{
+  width: 25%;
+height: 100%;
+background-color: 
+black;  
+}
+.one .one_child_four{
+  width: 25%;
+height: 100%;
+background-color: rgb(38, 255, 0);
+
+}
+.one .one_child_two .one_inner{ 
+  width: 100%;
+  height: 50%;
+  background-color: rgb(0, 255, 102);
+}
+
+.one .one_child_two .second_inner{ 
+  width: 100%;
+  height: 50%;
+  background-color: rgb(132, 0, 255);
+  display: flex;
+}
+
+.one .one_child_two .second_inner .second_child_one{
+  width: 50%;
+  height: 100%;
+  background-color: rgb(0, 200, 255);
+}
+
+.one .one_child_two .second_inner .second_child_two{
+  width: 50%;
+  height: 100%;
+  background-color: rgb(93, 0, 255);
+}
+
+.one .one_child_four .fore_inner_one{
+  width: 100%;
+  height: 33.33%;
+  background-color: rgb(132, 0, 255);
+}
+.one .one_child_four .fore_inner_two{
+  width: 100%;
+  height: 33.33%;
+  background-color: rgb(255, 187, 0);
+}
+
+.one .one_child_four .fore_inner_three{
+  width: 100%;
+  height: 33.34%;
+  background-color: rgb(255, 0, 195);
+}
+
+.two {
+  width: 100%;
+  height: 33.33%;
+  background-color: green;
+  display: flex;
+  
+}
+
+.two .two_child_one{
+  width: 20%;
+height: 100%;
+background-color: 
+rgb(255, 55, 0);
+} 
+
+
+.two .two_child_two{
+  width: 20%;
+height: 100%;
+background-color: 
+rgb(18, 207, 46);
+flex-grow: 1;
+} 
+
+.two .two_child_three{
+  width: 20%;
+height: 100%;
+background-color: 
+rgb(40, 19, 19);
+flex-grow: 2;
+} 
+
+.two .two_child_two .two_two_one{
+  width: 100%;
+height: 33.33%;
+background-color: 
+rgb(139, 17, 127);} 
+
+.two .two_child_two .two_two_two{
+  width: 100%;
+height: 33.33%;
+background-color:black;
+display: flex;
+} 
+
+.two .two_child_two .two_two_three{
+  width: 100%;
+height: 33.34%;
+background-color: 
+rgb(76, 225, 17);} 
+
+
+.two .two_child_two .two_two_two_one{
+  width:50%;
+  height: 100%;
+  background-color: 
+  rgb(25, 3, 73);} 
+
+.two .two_child_two .two_two_two_two{
+  width: 50%;
+height: 100%;
+background-color: tomato;
+}
+
+
+.two .two_child_two .two_two_two_two .two_cc_one{
+  width: 100%;
+  height: 50%;
+background-color: rgb(15, 8, 222);}
+
+.two .two_child_two .two_two_two_two .two_cc_two{
+  width: 100%;
+  height: 50%;
+background-color: rgb(145, 34, 236);}
+
+
+.three {
+  width: 100%;
+  height: 33.34%;
+  background-color: yellow;
+  display: flex;
+}
+
+
+
+.three .three_child_one{
+  width: 40%;
+  height: 100%;
+  background-color: yellow;
+}
+
+.three .three_child_two{
+  width: 40%;
+  height: 100%;
+  background-color: rgb(214, 167, 205);
+}
+
+.three .three_child_three{
+  width: 30%;
+  height: 100%;
+  background-color: rgb(255, 115, 0);
+}
+
+
+.three .three_child_one .a3c1c1{
+  width: 100%;
+  height: 33.33%;
+  background-color: rgb(215, 33, 194);
+}
+
+.three .three_child_one .a3c1c2{
+  width: 100%;
+  height: 33.33%;
+  background-color: rgb(17, 195, 88);
+  display: flex;
+}
+
+.three .three_child_one .a3c1c3{
+  width: 100%;
+  height: 33.34%;
+  background-color: rgb(221, 131, 12);
+}
+
+.three .three_child_three .a3c3c1{
+  width: 100%;
+  height: 33.33%;
+  background-color: rgb(215, 33, 194);
+}
+
+.three .three_child_three .a3c3c2{
+  width: 100%;
+  height: 33.33%;
+  background-color: rgb(17, 195, 88);
+  display: flex;
+}
+
+.three .three_child_three .a3c3c3{
+  width: 100%;
+  height: 33.34%;
+  background-color: rgb(221, 131, 12);
+ 
+}
+
+.three .three_child_one .a3c1c2 .a3c1c2c1{
+  width: 50%;
+  height: 100%;
+  background-color: rgb(48, 23, 42);
+}
+
+.three .three_child_one .a3c1c2 .a3c1c2c2{
+  width: 50%;
+  height: 100%;
+  background-color: rgb(111, 143, 194);
+}
+
+.three .three_child_three .a3c3c2 .onec1{
+  width: 33.33%;
+  height: 100%;
+  background-color: rgb(111, 143, 194);
+}
+
+
+.three .three_child_three .a3c3c2 .onec2{
+  width: 33.33%;
+  height: 100%;
+  background-color: rgb(163, 51, 109);
+}
+
+.three .three_child_three .a3c3c2 .onec3{
+  width: 33.34%;
+  height: 100%;
+  background-color: rgb(111, 143, 194);
+}
